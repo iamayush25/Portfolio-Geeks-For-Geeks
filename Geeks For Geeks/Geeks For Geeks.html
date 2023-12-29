@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 15px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: green;
+        }
+
+        hr {
+            background-color: black;
+            height: 1px;
+        }
+
+        #title,
+        #title1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .main-container {
+            /* display: grid;
+            grid-template-columns: auto auto auto auto; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+
+        .container {
+            width: 315px;
+            height: 350px;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 312px;
+            height: 120px;
+        }
+
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #5673c8;
+        }
+    </style>
+    <div id="title">
+        <h1>GeeksForGeeks</h1>
+    </div>
+    <div id="title1">
+        <h3>A Comouter Science Portal for Geeks</h3>
+    </div>
+    <hr>
+    <div id="title2">
+        <h1>Portfolio</h1>
+    </div>
+    <div class="main-container">
+        <div class="container">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/html.png" alt=" HTML Tutorial">
+            <a href="https://www.geeksforgeeks.org/html/">HTML Tutorial</a>
+            <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is
+                the combination of Hypertext and Markup language. Hypertext defines
+                the link between the web pages.</p>
+        </div>
+        <div class="container">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS.png" alt="CSS Tutorial">
+            <a href="https://www.geeksforgeeks.org/css/">CSS Tutorial</a>
+            <p>This CSS tutorial, whether you are a student or a professional is a valuable resource to enhance the
+                visual appeal of your websites or personal blogs. Here, you will learn CSS all the basic to advanced
+                concepts, such as properties, selectors, functions, media queries and more.</p>
+        </div>
+        <div class="container">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/php-1.png" alt="PHP Tutorial">
+            <a href="https://www.geeksforgeeks.org/php-tutorial/">PHP Tutorial</a>
+            <p>The term PHP is an acronym for Hypertext Preprocessor. It is an open-source, interpreted, object-oriented
+                server-side scripting language that is used for web development. PHP is developed by the Rasmus Lerdorf
+                in 1994 with the very first version of PHP that simply designed to set the Common Gateway Interface
+                (CGI) binaries, which are written in C programming language. The latest version of PHP is PHP versions 8
+                which is released on November 24, 2022.</p>
+        </div>
+        <div class="container">
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/javascript.png" alt="javascript">
+            <a href="https://www.geeksforgeeks.org/javascript/">Javascript</a>
+            <p>JavaScript (JS) is the most popular lightweight, interpreted compiled programming language. It can be
+                used for both Client-side as well as Server-side developments. JavaScript also known as a scripting
+                language for web pages.</p>
+        </div>
+    </div>
+</body>
+
+</html>
